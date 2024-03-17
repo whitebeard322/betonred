@@ -1,0 +1,927 @@
+<!DOCTYPE html><html lang="pl-PL"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="BetOnRed to kasyno i bukmacher ⚡️ Zaloguj się na oficjalnej stronie | Szalone bonusy za rejestrację! Tylko najlepsze automaty w kasynie Bet on Red!">
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+    <title>BetOnRed Casino Polska | Oficjalna Strona Kasyna Bet on Red</title>
+    <style type="text/css">
+      *,
+      ::after,
+      ::before {
+        box-sizing: border-box;
+      }
+      body {
+        padding: 0;
+        margin: 0;
+        background-color: #101114;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
+          'Helvetica Neue', sans-serif;
+        color: #fff;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.5;
+        scroll-behavior: smooth;
+      }
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+      p {
+        margin: 0;
+      }
+      img {
+        max-width: 100%;
+        height: auto;
+        object-fit: cover;
+      }
+      .content__inner h1 {
+        font-size: 2.4375em;
+        margin-bottom: 16px;
+      }
+      .content__inner h2 {
+        font-size: 1.9375em;
+        margin: 16px 0;
+      }
+      .content__inner p + p {
+        margin-top: 16px;
+      }
+      .content {
+        padding: 8px 0;
+      }
+      .container {
+        max-width: 1400px;
+        margin: 0 auto;
+        padding: 0 20px;
+      }
+      .main {
+        max-width: 1400px;
+        margin: 0 auto;
+        padding: 0 20px;
+      }
+      .header {
+        position: sticky;
+        top: 0;
+        background-color: #101114;
+        z-index: 10;
+        box-shadow: 0 0 1px rgba(0, 0, 0, 0.32), 0 4px 8px rgba(0, 0, 0, 0.24);
+      }
+      .header__inner {
+        display: flex;
+        align-items: center;
+        padding: 20px 15px 20px 90px;
+        position: relative;
+      }
+      .menu__burger {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 70px;
+        height: 60px;
+        background-color: #161d37;
+        z-index: 11;
+      }
+      .menu-burger__input,
+      .menu-burger__label {
+        display: none;
+      }
+      .btn-box--mobile {
+        display: none;
+      }
+      .menu__list {
+        padding: 0 0 0 10px;
+        margin: 0;
+        list-style: none;
+      }
+      .menu,
+      .menu-burger__label span {
+        left: 0;
+      }
+      .menu-burger__label {
+        cursor: pointer;
+      }
+      .menu {
+        position: absolute;
+        top: 0px;
+        padding: 80px 8px 16px 8px;
+        box-shadow: 0 0 1px rgba(0, 0, 0, 0.32), 0 4px 8px rgba(0, 0, 0, 0.24);
+        width: 280px;
+        background-color: #1d1f24;
+        z-index: 10;
+        transform: translateX(-200%);
+        transition: all 0.5s;
+      }
+      .menu-burger__label span,
+      .menu-burger__label::after,
+      .menu-burger__label::before {
+        height: 2px;
+        border-radius: 2px;
+        background-color: #a2a5af;
+        position: absolute;
+      }
+      .menu-burger__label span {
+        width: 100%;
+      }
+      .menu-burger__label::before {
+        width: 16px;
+      }
+      .menu-burger__label::after {
+        width: 19px;
+      }
+      .menu-burger__label,
+      .menu-burger__label span {
+        top: 50%;
+        transform: translateY(-50%);
+        display: block;
+      }
+      .menu-burger__input {
+        position: relative;
+        opacity: 0;
+      }
+      .menu-burger__label {
+        position: absolute;
+        left: 20px;
+        top: 37px;
+        width: 24px;
+        height: 16px;
+        z-index: 11;
+      }
+      .menu-burger__label::after,
+      .menu-burger__label::before,
+      .menu-burger__label span {
+        content: '';
+        right: 0;
+        transition: transform 0.3s;
+      }
+      .menu-burger__label::after {
+        top: 0;
+      }
+      .menu-burger__label::before {
+        bottom: 0;
+      }
+      .menu-burger__input:checked ~ .menu-burger__label span,
+      .menu-burger__input:checked ~ .menu-burger__label::before,
+      .menu-burger__input:checked ~ .menu-burger__label::after {
+        left: 0;
+      }
+      .menu-burger__input:checked + .menu-burger__label + .menu {
+        transform: translateX(0);
+      }
+      .menu__title {
+        display: flex;
+        align-items: center;
+        padding-left: 10px;
+        color: #d0d2d7;
+        background-color: #2a2d35;
+        font-weight: 400;
+        padding: 8px;
+        border-radius: 8px;
+        margin-bottom: 8px;
+      }
+      .menu__title svg {
+        margin-right: 5px;
+      }
+      .menu__item {
+        margin-bottom: 8px;
+        display: flex;
+        align-items: center;
+        transition: all 0.4s;
+      }
+      .menu__item svg {
+        margin-right: 5px;
+      }
+      .menu__item:hover {
+        transform: translateX(5px);
+      }
+      .menu__link {
+        font-size: 14px;
+        font-weight: 400;
+        color: #d0d2d7;
+      }
+      .logo {
+        z-index: 11;
+      }
+      .header__btn-box {
+        margin-left: auto;
+      }
+      .btn__link {
+        padding: 6px 11px 8px 11px;
+        font-size: 14px;
+        font-weight: 600;
+        border-radius: 16px;
+        color: #fff;
+        border: none;
+        transition: all 0.5s;
+      }
+      .log-in {
+        margin-right: 5px;
+        background-color: transparent;
+        box-shadow: inset 0 0 0 2px #373b45;
+      }
+      .log-in:hover {
+        background-color: #2a2d35;
+        box-shadow: none;
+      }
+      .registration {
+        background-color: #03f295;
+        box-shadow: inset 0 0 0 2px #03f295;
+        color: #000;
+      }
+      .registration:hover {
+        background-color: #25fca8;
+        box-shadow: none;
+      }
+      .main {
+        padding: 161px 0 102px;
+        background-image: url('images/main-img.webp');
+        background-position: top center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .main__text {
+        font-size: 30px;
+        line-height: 1.4;
+      }
+      .main__text-title {
+        color: #f6da24;
+        font-size: 105px;
+        font-weight: 900;
+        line-height: 1.2;
+      }
+      .main__text--yelov {
+        color: #f6da24;
+      }
+      .main__btn {
+        padding: 14px 74px;
+        transition: all 0.5s;
+        background-color: #03f295;
+        color: #000;
+        font-size: 18px;
+        border-radius: 1000px;
+        border: none;
+        margin-top: 20px;
+      }
+      .main__btn--small {
+        font-size: 10px;
+      }
+      .main__btn:hover {
+        transform: scale(1.1);
+      }
+      .popular {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-gap: 10px;
+        margin-bottom: 20px;
+      }
+      .popular__item {
+        cursor: pointer;
+      }
+      .popular__img {
+        border-radius: 20px;
+        overflow: hidden;
+      }
+      .popular__img img {
+        transition: all 0.5s;
+      }
+      .popular__img:hover img {
+        transform: scale(1.1);
+      }
+      .popular__item span {
+        display: block;
+      }
+      .popular__text--smal {
+        font-size: 13px;
+        color: #fff;
+      }
+      .more-games {
+        background-color: #03f295;
+        color: #000;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 16px;
+        border-radius: 22px;
+        padding: 11px 20px;
+        display: inline-block;
+        margin-left: 50%;
+        transform: translateX(-50%);
+        transition: background 0.5s;
+      }
+      .more-games:hover {
+        background-color: #25fca8;
+      }
+      .spoiler {
+        background: #0e265c;
+        margin: 30px 0;
+        border-radius: 25px;
+        max-width: 70%;
+        box-shadow: 0 0 8px 3px #03f295;
+        -webkit-box-shadow: 0 0 8px 3px #03f295;
+        padding: 20px 0;
+        position: relative;
+      }
+      .spoiler__input {
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0;
+      }
+      .spoiler__label {
+        padding: 15px 30px;
+        font-weight: 700;
+        font-size: 1.2em;
+        cursor: pointer;
+        position: relative;
+      }
+      .spoiler__label::after,
+      .spoiler__label::before {
+        content: '';
+        position: absolute;
+        background-color: #fff;
+        top: 50%;
+        transform: translateY(-50%);
+        height: 8px;
+        width: 2px;
+        transition: all 0.3s;
+      }
+      .spoiler__label::after {
+        right: 2px;
+        transform: rotate(45deg);
+      }
+      .spoiler__label::before {
+        right: 7px;
+        transform: rotate(-45deg);
+      }
+      .spoiler__input:checked ~ .spoiler__label::after {
+        transform: rotate(135deg);
+      }
+      .spoiler__input:checked ~ .spoiler__label::before {
+        transform: rotate(-135deg);
+      }
+      .spoiler__input:checked ~ .spoiler__content {
+        display: none;
+      }
+      .spoiler__list {
+        list-style: none;
+        counter-reset: li;
+        padding-left: 30px;
+      }
+      .spoiler__list-item {
+        font-weight: 700;
+      }
+      .spoiler__list-item {
+        margin-top: 10px;
+      }
+      .spoiler__list-item::before {
+        counter-increment: li;
+        content: counters(li, '.') '. ';
+        opacity: 0.5;
+        color: #fff;
+        font-weight: 400;
+      }
+      .questions__item {
+        position: relative;
+        border-radius: 5px;
+        border-left: 3px solid #03f295;
+      }
+      .questions__item + .questions__item {
+        margin-top: 15px;
+      }
+      .questions__input {
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0;
+      }
+      .questions__label {
+        display: block;
+        padding: 15px 30px 15px 20px;
+        position: relative;
+        cursor: pointer;
+        background: #123481;
+      }
+      .questions__label::after,
+      .questions__label::before {
+        content: '';
+        position: absolute;
+        background-color: #000;
+        top: 50%;
+        transform: translateY(-50%);
+        height: 10px;
+        width: 1.5px;
+        transition: all 0.5s;
+      }
+      .questions__label::after {
+        right: 23px;
+        transform: rotate(45deg);
+      }
+      .questions__label::before {
+        right: 30px;
+        transform: rotate(-45deg);
+      }
+      .questions__content {
+        padding: 20px;
+        background: #161d37;
+        display: block;
+      }
+      .questions__input:checked ~ .questions__label::after {
+        transform: rotate(135deg);
+      }
+      .questions__input:checked ~ .questions__label::before {
+        transform: rotate(-135deg);
+      }
+      .questions__input:checked ~ .questions__content {
+        display: none;
+      }
+      .comments__item {
+        padding: 25px 20px 30px;
+        border-radius: 10px;
+        background-color: #161d37;
+        position: relative;
+      }
+      .comments__item + .comments__item {
+        margin-top: 40px;
+      }
+      .comments__info {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 10px;
+      }
+      .comments__name {
+        font-weight: 700;
+        font-size: 17px;
+      }
+      .comments__star {
+        display: flex;
+        height: 16px;
+        width: 89px;
+        margin-bottom: 0.5rem;
+        background-image: url('images/rating.svg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-right: 30px;
+      }
+      .comments__btn {
+        position: absolute;
+        bottom: -15px;
+        right: 3%;
+        background-color: #222d56;
+        border: none;
+        color: #fff;
+        padding: 7px 30px 6px;
+        font-size: 18px;
+        border-radius: 5px;
+        transition: background 0.5s;
+      }
+      .comments__btn:hover {
+        background-color: #211d45;
+      }
+      .footer {
+        padding: 50px 0;
+      }
+      .footer__nav {
+        display: grid;
+        grid-template-columns: 30% 70%;
+        border-top: 1px solid rgba(88, 92, 131, 0.3);
+        border-bottom: 1px solid rgba(88, 92, 131, 0.3);
+        padding: 15px 0;
+      }
+      .footer__nav-logo {
+        width: 150px;
+        padding-right: 0;
+      }
+      .footer__list {
+        list-style: none;
+        padding: 0;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        max-width: 100%;
+        width: 100%;
+      }
+      .footer__list-item {
+        color: #d0d2d7;
+      }
+      .footer__text {
+        color: #a2a5af;
+        font-size: 14px;
+        padding-top: 40px;
+      }
+      @media (max-width: 768px) {
+        .main {
+          background-image: url('images/main-img-768.webp');
+        }
+        .popular {
+          grid-template-columns: repeat(3, 1fr);
+        }
+        .footer__nav {
+          grid-template-columns: 100%;
+        }
+      }
+      @media (max-width: 465px) {
+        .content {
+          padding-bottom: 0;
+        }
+        .content__inner h1 {
+          font-size: 30px;
+          margin-bottom: 20px;
+        }
+        .content__inner h2 {
+          font-size: 24px;
+          margin-bottom: 20px;
+        }
+        .header__inner {
+          padding-left: 50px;
+        }
+        .logo__img {
+          width: 122px;
+          height: 27px;
+        }
+        .menu-burger__label {
+          left: 10px;
+          top: 33px;
+        }
+        .menu {
+          width: 100%;
+        }
+        .btn-box--mobile {
+          display: block;
+          width: 100%;
+          display: flex;
+          justify-content: space-around;
+          margin-bottom: 15px;
+        }
+        .btn__link--mobile {
+          font-size: 16px;
+          line-height: 22px;
+          font-weight: 600;
+          padding: 10px 40px 13px;
+          border-radius: 22px;
+        }
+        .log-in--mobile {
+          background-color: #2a2d35;
+        }
+        .registration--mobile {
+          background-color: #03f295;
+        }
+        .main {
+          padding: 200px 8px 30px;
+          background-image: url('images/main-img-320.webp');
+        }
+        .main__text {
+          font-size: 14px;
+        }
+        .main__text-title {
+          font-size: 50px;
+        }
+        .main__btn {
+          font-size: 16px;
+        }
+        .main__btn--small {
+          font-size: 10px;
+        }
+        .popular {
+          grid-template-columns: repeat(2, 1fr);
+        }
+        .more-games {
+          width: 150px;
+          padding: 11px 15px;
+          text-align: center;
+        }
+        .spoiler {
+          max-width: 100%;
+        }
+        .questions__label::before {
+          right: 18px;
+        }
+        .questions__label::after {
+          right: 11px;
+        }
+        .comments__info {
+          flex-direction: column;
+          align-items: start;
+        }
+        .comments__name {
+          margin-bottom: 10px;
+        }
+        .comments__btn {
+          padding: 5px 30px;
+        }
+      }
+      @media (max-width: 370px) {
+        .header__btn-box {
+          display: none;
+        }
+      }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+    }
+    tr:nth-child(even) {
+        background-color: #101114;
+    }
+    tr:hover {
+        background-color: #02F395;
+    }
+    a {
+        color: #007bff;
+        text-decoration: none;
+    }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__inner">
+        <input class="menu-burger__input" type="checkbox" id="burger">
+        <label class="menu-burger__label" for="burger"><span></span></label>
+        <nav class="menu">
+          <div class="btn-box btn-box--mobile">
+            Zaloguj się
+            <a class="btn__link--mobile registration--mobile" id="reflink" href="#">Zarejestruj się</a>
+          </div>
+          <p class="menu__title">
+            <svg viewBox="0 0 24 24" width="17" height="17" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M11 17.443C11 19.96 8.985 22 6.5 22S2 19.96 2 17.443c0-2.517 2.015-4.557 4.5-4.557s4.5 2.04 4.5 4.557zM22 15.418c0 2.517-2.015 4.557-4.5 4.557s-4.5-2.04-4.5-4.557c0-2.517 2.015-4.557 4.5-4.557S22 12.9 22 15.418z" fill="#d0d2d7"></path>
+              <path d="M12.483 3.222a.744.744 0 01.623-.202c.919.133 1.684.65 2.297 1.3.613.65 1.113 1.473 1.51 2.314.793 1.674 1.243 3.561 1.334 4.67l-1.495.126c-.075-.916-.475-2.624-1.191-4.14-.357-.754-.775-1.425-1.243-1.92a3.55 3.55 0 00-.531-.469c-.04 2.003-.598 3.986-1.326 5.659-.866 1.989-2.027 3.656-2.993 4.438l-.937-1.186c.702-.568 1.74-1.99 2.558-3.865.81-1.86 1.349-4.047 1.164-6.106a.765.765 0 01.23-.62z" fill="#d0d2d7"></path>
+              <path d="M16.212 2.52a.762.762 0 01-.475.96L11.237 5a.748.748 0 01-.948-.481.762.762 0 01.474-.96l4.5-1.52a.748.748 0 01.949.48z" fill="#d0d2d7"></path>
+            </svg>
+            Kasyno
+          </p>
+          <ul class="menu__list">
+            <li class="menu__item">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 22.5c5.799 0 10.5-4.701 10.5-10.5S17.799 1.5 12 1.5 1.5 6.201 1.5 12 6.201 22.5 12 22.5zm0-1.5a9 9 0 110-18 9 9 0 010 18zM9.116 9.54l1.346 2.019a1.6 1.6 0 000 .882L9.116 14.46a.8.8 0 10.43.42l2.013-1.341a1.605 1.605 0 00.882 0l2.032 1.354a.8.8 0 10.416-.425l-1.35-2.027a1.6 1.6 0 000-.882l1.35-2.027a.8.8 0 10-.416-.426l-2.032 1.355a1.604 1.604 0 00-.882 0L9.546 9.12a.8.8 0 10-.43.42zM12 4.031c-.168 0-.335.006-.501.016l.061.998a7.102 7.102 0 01.88 0l.061-.998A8.102 8.102 0 0012 4.03zm-1.986.25a7.928 7.928 0 00-.955.31l.369.93a6.93 6.93 0 01.834-.272l-.248-.969zm4.927.31a7.93 7.93 0 00-.955-.31l-.248.968c.286.073.564.164.835.271l.368-.93zm-7.22.683c-.284.18-.555.377-.812.59l.638.77c.225-.186.462-.359.71-.516l-.537-.844zm9.37.59a8.013 8.013 0 00-.811-.59l-.537.844c.248.157.485.33.71.516l.638-.77zM5.847 6.927c-.213.257-.41.528-.59.81l.843.537a7.01 7.01 0 01.517-.71l-.77-.637zm12.896.81a8.005 8.005 0 00-.59-.81l-.77.637c.187.226.36.463.517.71l.843-.537zm-14.17 1.34c-.122.309-.226.627-.31.954l.969.248a6.93 6.93 0 01.27-.834l-.929-.368zm15.164.954a7.925 7.925 0 00-.31-.954l-.93.368c.107.27.198.549.271.834l.969-.248zm.249 1.986c0-.168-.005-.335-.015-.501l-.999.062a7.028 7.028 0 010 .879l.998.062c.01-.166.016-.333.016-.502zM4.03 11.516a8.094 8.094 0 000 1.003l.998-.062a7.1 7.1 0 010-.88l-.998-.061zm.233 2.488c.084.326.188.645.31.954l.93-.368a6.929 6.929 0 01-.271-.834l-.969.248zm15.164.954a7.92 7.92 0 00.31-.954l-.969-.248a6.925 6.925 0 01-.27.834l.929.368zm-14.17 1.34c.18.282.377.553.59.81l.77-.638a7.008 7.008 0 01-.517-.71l-.843.537zm12.896.81c.213-.257.41-.528.59-.81l-.843-.537c-.158.247-.33.484-.517.71l.77.637zM6.91 18.171c.257.213.528.41.811.59l.537-.844a7.015 7.015 0 01-.71-.516l-.638.77zm9.371.59a8.01 8.01 0 00.81-.59l-.637-.77a7.014 7.014 0 01-.71.516l.537.844zm-7.22.683c.308.123.627.227.954.31l.248-.969a6.926 6.926 0 01-.834-.27l-.369.93zm4.926.31c.327-.083.646-.187.955-.31l-.369-.93c-.27.108-.548.198-.834.271l.248.97zm-2.487.234a8.091 8.091 0 001.002 0l-.061-.998a7.11 7.11 0 01-.88 0l-.061.998z" fill="#d0d2d7"></path>
+              </svg>
+              <a class="menu__link" id="reflink" href="#">Kasyno na żywo</a>
+            </li>
+            <li class="menu__item">
+              <svg viewBox="0 0 24 25" width="17" height="17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M16.7 8.053c1.1 1.5 2.5 3.3 2.7 6.1 0 0 .1.6.1.8 0 3.9-3.3 7.2-7.5 7.2-4.1 0-7.5-3.2-7.5-7.2v-.5c.1-4.1 2.2-5.2 2.3-5.2.1-.1.3-.1.4 0 .1.1.2.2.2.3 0 .1.4 2.5 2.1 2.9 0-1.1 0-2.7.4-4 .6-2.1 2.1-4.2 3.9-5.4.1-.1.3-.1.5-.1.1.1.2.2.2.4 0 1.9 1 3.2 2.1 4.6.1 0 .1 0 .1.1zM9 18.153c.4 1.8 1.6 3.2 3.7 2.7 3-.7 2.8-4.2 1.6-6.1-1.2-2-1.3-3.6-1.3-4.1-.7.9-1.9 3.2-1.6 4.7.3 1.2-.7 1.5-1.6-.3-.4.2-1.1 1.7-.8 3.1z" fill="#d0d2d7"></path>
+              </svg>
+              <a class="menu__link" id="reflink" href="#">Najlepsze gry</a>
+            </li>
+            <li class="menu__item">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M10.149 12.664c0-.686-.588-1.077-1.077-1.077-.587 0-1.077.49-1.077 1.077v2.153c0 .685.588 1.077 1.077 1.077.685 0 1.077-.588 1.077-1.077v-2.153z" fill="#d0d2d7"></path>
+                <path d="M10.149 12.664c0-.686-.588-1.077-1.077-1.077-.587 0-1.077.49-1.077 1.077v2.153c0 .685.588 1.077 1.077 1.077.685 0 1.077-.588 1.077-1.077v-2.153zM13.077 12.664c0-.686-.588-1.077-1.077-1.077-.49 0-1.077.49-1.077 1.077v2.153c0 .685.588 1.077 1.077 1.077.685 0 1.077-.588 1.077-1.077v-2.153z" fill="#d0d2d7"></path>
+                <path d="M13.077 12.664c0-.686-.588-1.077-1.077-1.077-.49 0-1.077.49-1.077 1.077v2.153c0 .685.588 1.077 1.077 1.077.685 0 1.077-.588 1.077-1.077v-2.153zM14.928 11.587c.49 0 1.077.391 1.077 1.077v2.153c0 .49-.392 1.077-1.077 1.077-.49 0-1.077-.392-1.077-1.077v-2.153c0-.588.49-1.077 1.077-1.077z" fill="#d0d2d7"></path>
+                <path d="M14.928 11.587c.49 0 1.077.391 1.077 1.077v2.153c0 .49-.392 1.077-1.077 1.077-.49 0-1.077-.392-1.077-1.077v-2.153c0-.588.49-1.077 1.077-1.077z" fill="#d0d2d7"></path>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2.31c-4.209 0-7.537 3.328-7.537 7.537v10.669c0 .685.49 1.174 1.175 1.174h12.724c.686 0 1.175-.489 1.175-1.174V9.846c0-4.208-3.328-7.536-7.537-7.536zm0 2.447c-1.958 0-3.622 1.272-4.307 3.132-.098.49 0 .783.294.88.293.099.685-.097.783-.39.49-1.469 1.762-2.252 3.132-2.252s2.74.979 3.132 2.251c.098.294.588.49.881.392.294-.098.49-.587.392-.881-.685-1.86-2.35-3.132-4.307-3.132zM7.987 19.243c0 .392.391.686.685.686h6.656c.392 0 .587-.294.587-.686 0-.391-.391-.685-.685-.685H8.672c-.392 0-.685.392-.685.685zm8.613-1.957c.392 0 .686-.392.686-.686v-5.775c0-.391-.392-.685-.686-.685H7.4c-.392 0-.686.392-.686.685v5.776c0 .391.392.685.686.685h9.2zm-3.687-9.043a.913.913 0 11-1.826 0 .913.913 0 011.826 0z" fill="#d0d2d7"></path>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2.31c-4.209 0-7.537 3.328-7.537 7.537v10.669c0 .685.49 1.174 1.175 1.174h12.724c.686 0 1.175-.489 1.175-1.174V9.846c0-4.208-3.328-7.536-7.537-7.536zm0 2.447c-1.958 0-3.622 1.272-4.307 3.132-.098.49 0 .783.294.88.293.099.685-.097.783-.39.49-1.469 1.762-2.252 3.132-2.252s2.74.979 3.132 2.251c.098.294.588.49.881.392.294-.098.49-.587.392-.881-.685-1.86-2.35-3.132-4.307-3.132zM7.987 19.243c0 .392.391.686.685.686h6.656c.392 0 .587-.294.587-.686 0-.391-.391-.685-.685-.685H8.672c-.392 0-.685.392-.685.685zm8.613-1.957c.392 0 .686-.392.686-.686v-5.775c0-.391-.392-.685-.686-.685H7.4c-.392 0-.686.392-.686.685v5.776c0 .391.392.685.686.685h9.2zm-3.687-9.043a.913.913 0 11-1.826 0 .913.913 0 011.826 0z" fill="#d0d2d7"></path>
+              </svg>
+              <a class="menu__link" id="reflink" href="#">Gry planszowe</a>
+            </li>
+            <li class="menu__item">
+              <svg viewBox="0 0 24 25" width="17" height="17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M11.7 3.481c-4.7.1-8.8 4-8.9 9.2 0 5.1 4.1 9.2 9.2 9.2 5 0 9.1-3.9 9.2-9.2 0-5.4-4.3-9.4-9.5-9.2zm.3 1.8v5.3c-.53 0-1.01.2-1.38.53L7.1 7.081c1.4-1.2 3.1-1.8 4.9-1.8zm-7.4 8.3l5.33-.65c.06.51.3.97.67 1.3l-3.59 3.95c-1.31-1.2-2.21-2.8-2.41-4.6zm7.4 6.6v-5.4c.52 0 1-.2 1.36-.51l3.54 4.11c-1.4 1.2-3.1 1.8-4.9 1.8zm2.08-7.72c-.06-.52-.29-.98-.65-1.31l3.58-3.86c1.3 1.2 2.2 2.8 2.4 4.6l-5.33.57z" fill="#d0d2d7"></path>
+              </svg>
+              <a class="menu__link" id="reflink" href="#">Ruletka</a>
+            </li>
+            <li class="menu__item">
+              <svg viewBox="0 0 24 25" width="17" height="17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M12.28 20.346c-.1.1-.32.11-.43.03l-.6-.3c-1.2-.5-2.8-1.2-4.2-1.2-1 0-2.89.52-3.4.7-.5.3-1.4.8-1.4.1v-12.6c0-.3.1-.5.3-.6.9-.6 2.8-1.8 4.6-1.8 1.8 0 3.6 1 4.5 1.8.2.2.5.2.6 0 1-.8 2.8-1.8 4.6-1.8 1.8 0 3.8 1.1 4.6 1.8.2.2.3.4.3.6v12.6c0 .7-.5.5-1.1.2-.1-.1-2.8-1-3.8-1-1.4 0-2.85.48-4.05 1.08-.09.04-.44.34-.52.39zm3.87-5.37c-.1 0-.1-.3 0-.3.8-.3 1.3-.8 1.6-1.6 0-.1.3-.1.4 0 .3.8.8 1.3 1.6 1.6.1 0 .1.3 0 .3-.7.3-1.3.8-1.6 1.6 0 .1-.3.1-.4 0-.2-.8-.9-1.4-1.6-1.6zm-11.7-6.5c-.1 0-.1.3 0 .3.7.3 1.3.8 1.6 1.6.1.1.4.1.4 0 .3-.8.9-1.3 1.6-1.6.1 0 .1-.3 0-.3-.8-.3-1.3-.8-1.6-1.6-.1-.1-.4-.1-.4 0-.3.8-.8 1.3-1.6 1.6z" fill="#d0d2d7"></path>
+              </svg>
+              <a class="menu__link" id="reflink" href="#">Książki</a>
+            </li>
+            <li class="menu__item">
+              <svg viewBox="0 0 24 25" width="17" height="17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M19.808 7.453c.5-.8.4-1.7-.2-2.4l-.1-.1c-.4-.4-.9-.6-1.3-.6s-.8.1-1 .3c-.9-.5-2-.7-3.1-.7-2.6.1-5.2 1.3-7.3 3.4-3.1 3.1-4.1 7.4-2.6 10.4-.3.3-.4.7-.4 1 0 .5.2.9.6 1.3l.1.1c.4.4.9.6 1.3.6s.8-.1 1-.3c.9.5 2 .7 3.1.7 2.6 0 5.2-1.2 7.4-3.3 2.9-3.1 4-7.4 2.5-10.4z" fill="#d0d2d7"></path>
+              </svg>
+              <a class="menu__link" id="reflink" href="#">Jackpoty</a>
+            </li>
+            <li class="menu__item">
+              <svg viewBox="0 0 24 25" width="17" height="17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M11.141 7.31c1.017-.451 2.034-.677 2.938-.79V4.599c0-.226 0-.452-.113-.678C13.627 2.79 12.497 2 11.254 2H4.25c-.34 0-.565 0-.791.113-1.243.452-2.034 1.582-2.034 2.825v7.118c0 .226 0 .452.113.678.452 1.356 1.469 1.921 2.825 1.921h1.243c.339-3.164 2.486-5.988 5.536-7.344zm-.79-2.711c.677 0 1.13.452 1.13 1.13 0 .678-.566 1.13-1.13 1.13-.679 0-1.13-.565-1.13-1.13s.564-1.13 1.13-1.13zm-5.085 6.78c-.678 0-1.13-.566-1.13-1.13 0-.679.565-1.13 1.13-1.13.678.113 1.13.451 1.13 1.13 0 .677-.565 1.13-1.13 1.13zm0-4.52c-.678 0-1.13-.565-1.13-1.13s.565-1.13 1.13-1.13c.678 0 1.13.452 1.13 1.13 0 .678-.565 1.13-1.13 1.13z" fill="#d0d2d7"></path>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.028 15.582c0-4.283 3.48-7.774 7.774-7.774 4.283 0 7.774 3.491 7.774 7.774 0 4.282-3.48 7.773-7.774 7.773-4.282 0-7.774-3.48-7.774-7.774zm12.09.01c0 .713-.191 1.368-.497 1.967l1.356.7a5.774 5.774 0 00.678-2.678c0-.982-.26-1.886-.689-2.7l-1.356.712c.317.61.509 1.277.509 2zm-2.496-3.909l.598-1.412a5.823 5.823 0 00-2.418-.543c-.802 0-1.559.159-2.248.453l.61 1.412a4.413 4.413 0 011.638-.328c.656 0 1.266.158 1.82.418zm-5.582 1.83l-1.356-.711c-.464.836-.746 1.774-.735 2.79 0 1.006.271 1.944.723 2.77l1.356-.713a4.23 4.23 0 01-.542-2.056c0-.757.203-1.458.554-2.08zm2.101 6.068l-.599 1.413c.69.294 1.458.452 2.249.452.87 0 1.684-.204 2.43-.543l-.6-1.412a4.309 4.309 0 01-1.83.418 4.214 4.214 0 01-1.65-.328z" fill="#d0d2d7"></path>
+              </svg>
+              <a class="menu__link" id="reflink" href="#">Stołowe</a>
+            </li>
+          </ul>
+          <p class="menu__title">
+            <svg viewBox="0 0 24 24" width="17" height="17" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zM8.244 4.373l3.008 1.8v2.193l-2.791 2.028-2.044-.707-.587-3.534a8.526 8.526 0 012.414-1.78zm-4.623 9.066l2.327-2.327 2.04.705L9.07 15.15l-.97 1.575-3.293-.194a8.448 8.448 0 01-1.186-3.092zm6.909 6.934l-1.184-2.809.963-1.567h3.372l.912 1.581-1.04 2.78a8.554 8.554 0 01-3.023.015zm8.362-3.397l-3.024-.19-.938-1.624 1.087-3.345 2.013-.696 2.312 2.52a8.459 8.459 0 01-1.45 3.335zm-.72-10.82l-.589 3.533-2.04.705-2.791-2.028V6.172l3.002-1.8a8.528 8.528 0 012.418 1.784z" fill="#d0d2d7"></path>
+            </svg>
+            Sporty
+          </p>
+          <ul class="menu__list">
+            <li class="menu__item">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M10.993 8.478l-2.27 1.63a1.758 1.758 0 00-.607 1.918l.863 2.653a1.727 1.727 0 001.63 1.183h2.782a1.726 1.726 0 001.63-1.183l.863-2.653a1.758 1.758 0 00-.607-1.918l-2.27-1.63a1.662 1.662 0 00-2.014 0z" fill="#d0d2d7"></path>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M4.79 4.831a.942.942 0 01.106 1.329 9.298 9.298 0 00-.285 11.716.942.942 0 01-1.492 1.152 11.182 11.182 0 01.343-14.091.942.942 0 011.328-.106z" fill="#d0d2d7"></path>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M7.683 7.296c.394.34.44.934.1 1.329a5.465 5.465 0 00-.171 6.912.942.942 0 11-1.489 1.155 7.35 7.35 0 01.23-9.295.942.942 0 011.33-.101zM19.21 4.831a.942.942 0 011.328.106 11.182 11.182 0 01.343 14.09.942.942 0 01-1.491-1.151 9.297 9.297 0 00-.286-11.716.942.942 0 01.106-1.329z" fill="#d0d2d7"></path>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M16.292 7.296a.942.942 0 011.33.1 7.35 7.35 0 01.23 9.296.942.942 0 01-1.49-1.155 5.465 5.465 0 00-.17-6.912.942.942 0 01.1-1.329z" fill="#d0d2d7"></path>
+              </svg>
+              <a class="menu__link" id="reflink" href="#">Sporty na żywo</a>
+            </li>
+            <li class="menu__item">
+              <svg viewBox="0 0 24 24" width="17" height="17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zM8.244 4.373l3.008 1.8v2.193l-2.791 2.028-2.044-.707-.587-3.534a8.526 8.526 0 012.414-1.78zm-4.623 9.066l2.327-2.327 2.04.705L9.07 15.15l-.97 1.575-3.293-.194a8.448 8.448 0 01-1.186-3.092zm6.909 6.934l-1.184-2.809.963-1.567h3.372l.912 1.581-1.04 2.78a8.554 8.554 0 01-3.023.015zm8.362-3.397l-3.024-.19-.938-1.624 1.087-3.345 2.013-.696 2.312 2.52a8.459 8.459 0 01-1.45 3.335zm-.72-10.82l-.589 3.533-2.04.705-2.791-2.028V6.172l3.002-1.8a8.528 8.528 0 012.418 1.784z" fill="#d0d2d7"></path>
+              </svg>
+              <a class="menu__link" id="reflink" href="#">Wyniki sportowe</a>
+            </li>
+          </ul>
+        </nav>
+        <a class="logo" href="https://betonred.casino">
+          <img class="logo__img" src="images/logo-main.svg" alt="logo" width="143" height="29">
+        </a>
+        <div class="btn-box header__btn-box">
+          <a class="btn__link log-in" id="reflink" href="#">Zaloguj</a>
+          <a class="btn__link registration" id="reflink" href="#">Zarejestruj</a>
+        </div>
+      </div>
+    </header>
+    <section class="content">
+      <div class="main">
+        <p class="main__text">OFERTA POWITALNA</p>
+        <p class="main__text main__text-title">1800 zł</p>
+        <p class="main__text main__text--yelov">+ 250 Darmowych Spinów</p>
+        <a class="main__btn" id="reflink" href="#">Zarejestruj się teraz</a>
+      </div>
+    </section>
+    <section class="content">
+      <div class="container">
+        <div class="content__inner">
+<h1 align="center">Betonred Casino Polska</h1>
+<h2>Wprowadzenie do Betonred Kasyna</h2>
+<p>Nasza oficjalna strona to raj dla entuzjastów wirtualnych gier, oferujący łatwe w obsłudze menu i płynną nawigację. Betonred jest dumny z dostarczania angażujących i przyjemnych doświadczeń pełnych rozrywki i możliwości wygranych. Dołącz do nas, aby odkryć świat, gdzie Twoja przyjemność z gry jest naszym priorytetem.</p>
+<br>
+<table>
+<tbody>
+<tr>
+<td>Oficjalna strona</td>
+<td><a href="https://betonred.casino/">betonred.casino</a></td>
+</tr>
+<tr>
+<td>Pakiet powitalny</td>
+<td>€450 + 250 Free Spins</td>
+</tr>
+<tr>
+<td>Rodzaje dostępnych gier</td>
+<td>Automaty, ruletka, blackjack, bakarat, poker</td>
+</tr>
+<tr>
+<td>Licencja</td>
+<td>Licencjonowany przez międzynarodowe organy ds. gier</td>
+</tr>
+<tr>
+<td>Obsługa klienta</td>
+<td>Poczta e-mail i czat dostępne 24/7</td>
+</tr>
+<tr>
+<td>Wersja mobilna</td>
+<td>Strona zoptymalizowana pod kątem urządzeń mobilnych</td>
+</tr>
+<tr>
+<td>Rok założenia</td>
+<td>2023</td>
+</tr>
+<tr>
+<td>Dostawcy oprogramowania</td>
+<td>Evolution Gaming, Play'n Go, Spinomenal, Bgaming, Red Tiger, Felix Gaming, 1Spin4Win</td>
+</tr>
+<tr>
+<td>Dostępne waluty</td>
+<td>EUR, USD, AUD, PLN</td>
+</tr>
+<tr>
+<td>Dostępne języki</td>
+<td>Polski, angielski, francuski, portugalski, niemiecki</td>
+</tr>
+</tbody>
+</table>
+<h2>Najlepsze Gry</h2>
+<p>Betonred Kasyno oferuje bogaty wybór najlepszych gier, które zadowolą preferencje każdego gracza. Zanurz się w naszych hipnotyzujących automatach, które obejmują od klasycznych maszyn z trzema bębnami po najnowsze sloty wideo z zaawansowaną grafiką i funkcjami. Miłośnicy gier stołowych mogą cieszyć się różnymi wariantami ruletki, blackjacka, bakarata i pokera, zapewniając bogate i różnorodne doświadczenia w grach. Ponadto nasze opcje kasyna na żywo oferują wciągające doświadczenie w czasie rzeczywistym z profesjonalnymi krupierami.</p>
+<h2>Doskonała Obsługa Klienta 24/7</h2>
+<p>Zadbaliśmy o to, aby nasza obsługa klienta była dostępna o każdej porze dnia i nocy. Nasi specjaliści są gotowi pomóc Ci poprzez czat na żywo lub e-mail, zapewniając szybkie i profesjonalne wsparcie. Niezależnie od twojego zapytania, możesz liczyć na naszą pomoc i wsparcie na każdym kroku.</p>
+<h2>Opcje Depozytów i Wypłat</h2>
+<p>Rozumiemy znaczenie elastyczności, jeśli chodzi o dokonywanie wpłat i wypłat.  Dlatego oferujemy szereg popularnych opcji płatności, w tym Mifinity, Astropay, Bitcoin, EzeeWallet, Mastercard, Jeton i Visa. Minimalna kwota depozytu w kasynie Betonred wynosi €15 dla wszystkich metod płatności.</p>
+<h2>Często Zadawane Pytania</h2>
+<h3>Jak mogę utworzyć konto w kasynie Betonred?</h3>
+<p>Utworzenie konta jest szybkie i proste. Kliknij przycisk „Rejestracja” i postępuj zgodnie z instrukcjami na ekranie. Podaj wymagane informacje, w tym nazwę, adres e-mail i hasło. Po utworzeniu konta może być konieczne weryfikacja adresu e-mail, aby w pełni aktywować konto.</p>
+<h3>Jak otrzymać bonus rejestracyjny?</h3>
+<p>Aby otrzymać bonus rejestracyjny, po prostu utwórz konto i postępuj zgodnie z instrukcjami dotyczącymi promocji startowej. Betonred Kasyno zapewnia bonus powitalny przy rejestracji 100% do €150 + 150 darmowych spinów.</p>
+<h3>Jakie typy gier są dostępne w Betonred?</h3>
+<p>Znajdziesz tu szeroki wybór gier, w tym automaty, gry stołowe, takie jak ruletka, blackjack, bakarat i poker, a także kasyno na żywo z prawdziwymi krupierami.</p>
+<h3>Czy istnieją opcje bez depozytu dostępne w Betonred?</h3>
+<p>Tak, Betonred oferuje gry w trybie demo, co pozwala graczom na wypróbowanie gier bez konieczności dokonywania depozytu. Wszystko, co musisz zrobić, to zarejestrować się i zacząć grać. Możesz dokonać wpłaty i zacząć grać na prawdziwe pieniądze, kiedy tylko chcesz.</p>
+       </div>
+      </div>
+    </section>
+    <section class="content">
+      <div class="container">
+        <div class="content__inner">
+          <h2 align="center">POPULARNE GRY</h2>
+          <div class="popular">
+            <div class="popular__item">
+              <a class="popular__link" id="reflink" href="#">
+                <div class="popular__img">
+                  <img src="images/olympgate.webp" width="100%" height="100%" loading="lazy" alt="Gates of Olympus">
+                </div>
+                <span>Gates of Olympus</span>
+                <span class="popular__text--smal">Pragmatic</span>
+              </a>
+            </div>
+            <div class="popular__item">
+              <a class="popular__link" id="reflink" href="#">
+                <div class="popular__img">
+                  <img src="images/bonanza.webp" width="100%" height="100%" loading="lazy" alt="Sweet Bonanza">
+                </div>
+                <span>Sweet Bonanza</span>
+                <span class="popular__text--smal">Pragmatic</span>
+              </a>
+            </div>
+            <div class="popular__item">
+              <a class="popular__link" id="reflink" href="#">
+                <div class="popular__img">
+                  <img src="images/bigbass.webp" width="100%" height="100%" loading="lazy" alt="Big Bass Splash">
+                </div>
+                <span>Big Bass Splash</span>
+                <span class="popular__text--smal">Pragmatic</span>
+              </a>
+            </div>
+            <div class="popular__item">
+              <a class="popular__link" id="reflink" href="#">
+                <div class="popular__img">
+                  <img src="images/doghouse.webp" width="100%" height="100%" loading="lazy" alt="Crazy Time">
+                </div>
+                <span>The Dog House Megaways</span>
+                <span class="popular__text--smal">Pragmatic</span>
+              </a>
+            </div>
+            <div class="popular__item">
+              <a class="popular__link" id="reflink" href="#">
+                <div class="popular__img">
+                  <img src="images/bookofthefallen.webp" width="100%" height="100%" loading="lazy" alt="Book of the Fallen">
+                </div>
+                <span>Book of the Fallen</span>
+                <span class="popular__text--smal">Pragmatic</span>
+              </a>
+            </div>
+            <div class="popular__item">
+              <a class="popular__link" id="reflink" href="#">
+                <div class="popular__img">
+                  <img src="images/crazytime.webp" width="100%" height="100%" loading="lazy" alt="Crazy Time">
+                </div>
+                <span>Crazy Time</span>
+                <span class="popular__text--smal">Evolution</span>
+              </a>
+            </div>
+            <div class="popular__item">
+              <a class="popular__link" id="reflink" href="#">
+                <div class="popular__img">
+                  <img src="images/sweetbobanza.webp" width="100%" height="100%" loading="lazy" alt="Sweet Bonanza CandyLand">
+                </div>
+                <span>Sweet Bonanza CandyLand</span>
+                <span class="popular__text--smal">Pragmatic live</span>
+              </a>
+            </div>
+            <div class="popular__item">
+              <a class="popular__link" id="reflink" href="#">
+                <div class="popular__img">
+                  <img src="images/evolution-baccarat.webp" width="100%" height="100%" loading="lazy" alt="baccarat">
+                </div>
+                <span>Lobby</span>
+                <span class="popular__text--smal">Evolution</span>
+              </a>
+            </div>
+            <div class="popular__item">
+              <a class="popular__link" id="reflink" href="#">
+                <div class="popular__img">
+                  <img src="images/super_sicbo.webp" width="100%" height="100%" loading="lazy" alt="Super Sic Bo">
+                </div>
+                <span>Super Sic Bo</span>
+                <span class="popular__text--smal">Evolution</span>
+              </a>
+            </div>
+            <div class="popular__item">
+              <a class="popular__link" id="reflink" href="#">
+                <div class="popular__img">
+                  <img src="images/lobby.webp" width="100%" height="100%" loading="lazy" alt="Lobby">
+                </div>
+                <span>Lobby</span>
+                <span class="popular__text--smal">Pragmatic live</span>
+              </a>
+            </div>
+          </div>
+          <a class="more-games" id="reflink" href="#">Wszystkie gry</a>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__inner">
+          <p class="footer__text">© betonred.casino. Wszelkie prawa zastrzeżone.</p>
+        </div>
+      </div>
+    </footer>
+  <script src="js/jquery.min.js"></script>
+ <script type="text/javascript" src="js/reflink.js"></script>
+
+</body></html>
